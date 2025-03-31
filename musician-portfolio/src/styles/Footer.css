@@ -1,0 +1,15 @@
+.footer-section {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #cccccc;
+}

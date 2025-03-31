@@ -1,0 +1,21 @@
+.hero-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.hero-section h1 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.hero-image-placeholder {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7);
+}
