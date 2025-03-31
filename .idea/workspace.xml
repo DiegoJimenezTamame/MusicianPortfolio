@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicianPortfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/components/AudioPlayer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/components/FeaturedWork.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/components/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/Gallery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/Music.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/About.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/AudioPlayer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/FeaturedWork.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/Hero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/Music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/Navbar.css" afterDir="false" />
-    </list>
+    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +51,27 @@
       <option name="presentableId" value="Default" />
       <updated>1743440529959</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed.">
+      <option name="closed" value="true" />
+      <created>1743444735049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743444735049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed.">
+      <option name="closed" value="true" />
+      <created>1743444841025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743444841025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed." />
   </component>
 </project>
