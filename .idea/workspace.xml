@@ -67,8 +67,27 @@
       <option name="project" value="LOCAL" />
       <updated>1743444841025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed.">
+      <option name="closed" value="true" />
+      <created>1743445113049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743445113049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed." />
