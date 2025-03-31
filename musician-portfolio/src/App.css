@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 0;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Add some base page styling */
+.home-page {
+  padding: 0;
+  max-width: none;
+}
+
+/* Keep the other page classes the same */
+.about-page, .music-page, .gallery-page, .contact-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
