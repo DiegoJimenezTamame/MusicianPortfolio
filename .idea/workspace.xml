@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Fixed Project Structure Issues.&#10;Added wavesurfer.js library to display real-time waveform representation of the audio files in AudioPlayer.jsx. &#10;There is an issue to be fixed with the behaviour of wavesurfer.js :&#10;Uncaught runtime errors:&#10;×&#10;ERROR&#10;signal is aborted without reason&#10;AbortError: signal is aborted without reason" />
+    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Fixed Project Structure Issues.">
+      <change afterPath="$PROJECT_DIR$/musician-portfolio/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,17 +66,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Reverting in master",
     "last_opened_file_path": "/Users/diegojimeneztamame/Desktop/MusicianPortfolio",
     "settings.editor.selected.configurable": "xslt.associations"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/musician-portfolio/src/assets/audio" />
       <recent name="$PROJECT_DIR$/musician-portfolio/src/assets/images" />
     </key>
   </component>
@@ -180,24 +183,11 @@
       <option name="project" value="LOCAL" />
       <updated>1743504161395</updated>
     </task>
-    <task id="LOCAL-00013" summary="Fixed some React compatibility issues">
-      <option name="closed" value="true" />
-      <created>1743506220194</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1743506220194</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Fixed Project Structure Issues.&#10;Added wavesurfer.js library to display real-time waveform representation of the audio files in AudioPlayer.jsx. &#10;There is an issue to be fixed with the behaviour of wavesurfer.js :&#10;Uncaught runtime errors:&#10;×&#10;ERROR&#10;signal is aborted without reason&#10;AbortError: signal is aborted without reason">
-      <option name="closed" value="true" />
-      <created>1743529373177</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1743529373177</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="RECENT_FILTERS">
@@ -239,13 +229,17 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed." />
     <MESSAGE value="Updated Music.css, About.css, Audioplayer.css and About.jsx&#10;Some issue still persists with the timeline-container class in About.css, it should be differentiated from the timeline-container used in Music.jsx" />
     <MESSAGE value="Created Contact.jsx, Gallery.jsx, Contact.css and Gallery.css.&#10;Minor improvements in functionality like &quot;Required field&quot; in the &quot;Topic&quot; Scroll-Down in the Contact.jsx Page" />
     <MESSAGE value="Added Images to the Home Page, Hero.jsx and FeaturedWork.jsx and the About Page. &#10;Styled elements like fonts and paddings." />
     <MESSAGE value="Added Images to Music.jsx, Updated Music.css and AudioPlayer.css." />
     <MESSAGE value="Fixed some React compatibility issues" />
-    <MESSAGE value="Fixed Project Structure Issues.&#10;Added wavesurfer.js library to display real-time waveform representation of the audio files in AudioPlayer.jsx. &#10;There is an issue to be fixed with the behaviour of wavesurfer.js :&#10;Uncaught runtime errors:&#10;×&#10;ERROR&#10;signal is aborted without reason&#10;AbortError: signal is aborted without reason" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Project Structure Issues.&#10;Added wavesurfer.js library to display real-time waveform representation of the audio files in AudioPlayer.jsx. &#10;There is an issue to be fixed with the behaviour of wavesurfer.js :&#10;Uncaught runtime errors:&#10;×&#10;ERROR&#10;signal is aborted without reason&#10;AbortError: signal is aborted without reason" />
+    <MESSAGE value="Revert &quot;Fixed some React compatibility issues&quot;&#10;&#10;This reverts commit cc1707a0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Fixed some React compatibility issues&quot;&#10;&#10;This reverts commit cc1707a0" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
