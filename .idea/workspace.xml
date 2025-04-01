@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Added Images to the Home Page, Hero.jsx and FeaturedWork.jsx and the About Page. &#10;Styled elements like fonts and paddings.">
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/album1-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/album2-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/album3-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/single1-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/single2-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/single3-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/single4-cover.jpg" afterDir="false" />
+    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Fixed some React compatibility issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/pages/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/Music.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/AudioPlayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/AudioPlayer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/Music.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/Music.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -181,10 +174,38 @@
       <option name="project" value="LOCAL" />
       <updated>1743499762096</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Images to Music.jsx, Updated Music.css and AudioPlayer.css.">
+      <option name="closed" value="true" />
+      <created>1743504161395</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743504161395</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -208,6 +229,8 @@
     <MESSAGE value="Updated Music.css, About.css, Audioplayer.css and About.jsx&#10;Some issue still persists with the timeline-container class in About.css, it should be differentiated from the timeline-container used in Music.jsx" />
     <MESSAGE value="Created Contact.jsx, Gallery.jsx, Contact.css and Gallery.css.&#10;Minor improvements in functionality like &quot;Required field&quot; in the &quot;Topic&quot; Scroll-Down in the Contact.jsx Page" />
     <MESSAGE value="Added Images to the Home Page, Hero.jsx and FeaturedWork.jsx and the About Page. &#10;Styled elements like fonts and paddings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Images to the Home Page, Hero.jsx and FeaturedWork.jsx and the About Page. &#10;Styled elements like fonts and paddings." />
+    <MESSAGE value="Added Images to Music.jsx, Updated Music.css and AudioPlayer.css." />
+    <MESSAGE value="Fixed some React compatibility issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some React compatibility issues" />
   </component>
 </project>
