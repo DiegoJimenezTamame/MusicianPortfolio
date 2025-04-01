@@ -61,48 +61,50 @@ function About() {
         </Row>
 
         <h2 className="text-center mb-4">My Journey</h2>
-        <div className="timeline">
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>2010</h3>
-              <p>Started formal music education at the University of Music Arts</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>2014</h3>
-              <p>Released debut album "First Light" to critical acclaim</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>2016</h3>
-              <p>Performed at International Music Festival, opening for renowned artists</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>2019</h3>
-              <p>Composed soundtrack for award-winning independent film "Echoes"</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>2022</h3>
-              <p>Established own recording studio and started producing for other artists</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>Present</h3>
-              <p>Working on new album and collaborative projects with artists worldwide</p>
+        <div className="timeline-container">
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>2010</h3>
+                <p>Started formal music education at the University of Music Arts</p>
               </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>2014</h3>
+                <p>Released debut album "First Light" to critical acclaim</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>2016</h3>
+                <p>Performed at International Music Festival, opening for renowned artists</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>2019</h3>
+                <p>Composed soundtrack for award-winning independent film "Echoes"</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>2022</h3>
+                <p>Established own recording studio and started producing for other artists</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>Present</h3>
+                <p>Working on new album and collaborative projects with artists worldwide</p>
+              </div>
+            </div>
           </div>
         </div>
       </Container>

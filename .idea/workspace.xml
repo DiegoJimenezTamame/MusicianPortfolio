@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed." />
+    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/AudioPlayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/AudioPlayer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/Music.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/Music.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,14 +64,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/diegojimeneztamame/Desktop/MusicianPortfolio",
-    "settings.editor.selected.configurable": "xslt.associations"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/diegojimeneztamame/Desktop/MusicianPortfolio&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;xslt.associations&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -115,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743445450202</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Basic Website Structure, pages and components: &#10;Home, About, Music, Gallery, Contact.&#10;CSS files.&#10;Navbar, Hero, Footer, FeaturedWork, AudioPlayer components.&#10;Basic styling. &#10;Timeline in About overlaps with Footer and must be fixed.">
+      <option name="closed" value="true" />
+      <created>1743445904290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743445904290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
