@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Created Contact.jsx, Gallery.jsx, Contact.css and Gallery.css.&#10;Minor improvements in functionality like &quot;Required field&quot; in the &quot;Topic&quot; Scroll-Down in the Contact.jsx Page" />
+    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Created Contact.jsx, Gallery.jsx, Contact.css and Gallery.css.&#10;Minor improvements in functionality like &quot;Required field&quot; in the &quot;Topic&quot; Scroll-Down in the Contact.jsx Page">
+      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/about-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/hero-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/latest-album.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/live-performance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/assets/images/music-video.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/components/FeaturedWork.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/components/FeaturedWork.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/components/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/FeaturedWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/FeaturedWork.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musician-portfolio/src/styles/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/musician-portfolio/src/styles/Hero.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +83,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;xslt.associations&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/musician-portfolio/src/assets/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -148,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743495922965</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created Contact.jsx, Gallery.jsx, Contact.css and Gallery.css.&#10;Minor improvements in functionality like &quot;Required field&quot; in the &quot;Topic&quot; Scroll-Down in the Contact.jsx Page">
+      <option name="closed" value="true" />
+      <created>1743495950375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743495950375</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

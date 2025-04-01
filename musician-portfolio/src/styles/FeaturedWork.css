@@ -15,9 +15,17 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+.card-img-top {
+    width: 100%;  /* Ensures the image takes up the full width of the card */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-top-left-radius: 8px;  /* Optional: round the top-left corner */
+    border-top-right-radius: 8px; /* Optional: round the top-right corner */
+}
+
 .card-img-placeholder {
     background-color: #e9ecef;
-    height: 200px;
+    height: 200px;  /* Match the image height */
     display: flex;
     align-items: center;
     justify-content: center;

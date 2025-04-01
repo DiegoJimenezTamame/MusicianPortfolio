@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../styles/About.css';
 
+// Import the actual image
+import profileImage from '../assets/images/about-image.jpg'; // Adjust the path based on where you place the image
+
 function About() {
   const skills = [
     { name: "Piano", level: 90 },
@@ -19,7 +22,12 @@ function About() {
         <Row className="mb-5 align-items-center">
           <Col lg={6} className="mb-4 mb-lg-0">
             <div className="about-image-placeholder">
-              <div className="placeholder-text">Your Photo</div>
+              {/* Replace placeholder with the actual image */}
+              <img
+                src={profileImage} // Use the imported image
+                alt="Your Name"    // Alt text for accessibility
+                className="about-image" // Optional class for custom styling
+              />
             </div>
           </Col>
           <Col lg={6}>

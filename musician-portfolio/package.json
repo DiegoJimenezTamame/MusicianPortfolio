@@ -1,6 +1,7 @@
 {
   "name": "musician-portfolio",
   "version": "0.1.0",
+  "homepage": "https://github.com/DiegoJimenezTamame/MusicianPortfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",

@@ -1,11 +1,20 @@
 .about-image-placeholder {
     background-color: #e9ecef;
-    height: 400px;
+    height: 420px;  /* Slightly larger than the image */
     display: flex;
     align-items: center;
     justify-content: center;
     color: #6c757d;
     border-radius: 10px;
+    padding: 10px;  /* Equal padding to ensure image fits nicely inside */
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;  /* Ensure the image doesn't exceed the height */
+    border-radius: 8px; /* Optional: makes the image corners rounded */
+    object-fit: cover;  /* Ensures the image covers the area without distortion */
 }
 
 /* Skill cards styling */

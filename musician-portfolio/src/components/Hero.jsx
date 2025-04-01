@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../styles/Hero.css';
+import heroImage from '../assets/images/hero-image.jpg'
 
 function Hero() {
   return (
@@ -24,9 +25,14 @@ function Hero() {
             </div>
           </Col>
           <Col lg={6} className="mt-5 mt-lg-0 text-center">
-            <div className="hero-image-placeholder">
-              {/* We'll replace this with an actual image later */}
-              <div className="placeholder-text">Your Profile Image</div>
+            <div className="hero-image">
+                          {/* Display the imported image */}
+                          <img
+                           src={heroImage}  // Use the imported image here
+                           alt="Your Profile"
+                           className="img-fluid"  // Make the image responsive
+                           style={{ maxWidth: '500px', height: 'auto' }}  // Set the max width and auto height
+                          />
             </div>
           </Col>
         </Row>
