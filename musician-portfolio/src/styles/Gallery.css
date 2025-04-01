@@ -1,0 +1,76 @@
+/* gallery.css */
+
+/* Gallery container */
+.gallery-page {
+    text-align: center;
+    padding: 20px;
+    max-width: 100%; /* Ensure gallery takes full width */
+}
+
+/* Make the gallery horizontally scrollable */
+.gallery {
+    display: flex;
+    gap: 15px;         /* Space between images */
+    overflow-x: auto;  /* Allow horizontal scrolling */
+    padding-bottom: 20px; /* Optional: space at the bottom */
+    scroll-snap-type: x mandatory; /* Ensure smooth scrolling */
+    -webkit-overflow-scrolling: touch; /* Ensure smooth scrolling on mobile */
+    flex-wrap: nowrap;  /* Prevent wrapping of items */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+/* Style for each gallery item */
+.gallery-item {
+    flex: 0 0 auto;      /* Prevent items from shrinking or stretching */
+    width: 250px;        /* Fixed width for images */
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start; /* Ensure smooth snapping to each image */
+}
+
+/* Ensure the images fit their container */
+.gallery-item img {
+    width: 100%;        /* Make images fill the container */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+.gallery-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Modal (hidden by default) */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+}
+
+/* Modal content (image) */
+.modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 8px;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
