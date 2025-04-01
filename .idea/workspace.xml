@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Fixed Project Structure Issues.">
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musician-portfolio/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="25f45e34-c217-4705-8679-a7d32b66cc68" name="Changes" comment="Fixed Project Structure Issues." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="KEEP" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -68,7 +64,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Reverting in master",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/diegojimeneztamame/Desktop/MusicianPortfolio",
     "settings.editor.selected.configurable": "xslt.associations"
   }
@@ -183,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743504161395</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed Project Structure Issues.">
+      <option name="closed" value="true" />
+      <created>1743530157281</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743530157281</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -237,7 +241,8 @@
     <MESSAGE value="Added Images to Music.jsx, Updated Music.css and AudioPlayer.css." />
     <MESSAGE value="Fixed some React compatibility issues" />
     <MESSAGE value="Revert &quot;Fixed some React compatibility issues&quot;&#10;&#10;This reverts commit cc1707a0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Fixed some React compatibility issues&quot;&#10;&#10;This reverts commit cc1707a0" />
+    <MESSAGE value="Fixed Project Structure Issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Project Structure Issues." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
