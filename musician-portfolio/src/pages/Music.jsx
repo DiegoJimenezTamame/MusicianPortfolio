@@ -3,6 +3,15 @@ import { Container, Row, Col, Card, Nav, Tab } from 'react-bootstrap';
 import AudioPlayer from '../components/AudioPlayer';
 import '../styles/Music.css';
 
+// Import album and single cover images
+import album1Cover from '../assets/images/album1-cover.jpg';
+import album2Cover from '../assets/images/album2-cover.jpg';
+import album3Cover from '../assets/images/album3-cover.jpg';
+import single1Cover from '../assets/images/single1-cover.jpg';
+import single2Cover from '../assets/images/single2-cover.jpg';
+import single3Cover from '../assets/images/single3-cover.jpg';
+import single4Cover from '../assets/images/single4-cover.jpg';
+
 function Music() {
   // This would come from your backend API in a real application
   const musicData = {
@@ -11,7 +20,7 @@ function Music() {
         id: 1,
         title: "First Light",
         year: 2014,
-        coverPlaceholder: "Album 1 Cover",
+        cover: album1Cover, // Imported image
         description: "My debut album exploring themes of beginnings and discovery.",
         tracks: [
           { id: 1, title: "Dawn", duration: "3:45", audioSrc: "#" },
@@ -24,7 +33,7 @@ function Music() {
         id: 2,
         title: "Ocean Depths",
         year: 2018,
-        coverPlaceholder: "Album 2 Cover",
+        cover: album2Cover, // Imported image
         description: "A journey through the mysteries and wonders beneath the waves.",
         tracks: [
           { id: 1, title: "Surface Ripples", duration: "3:30", audioSrc: "#" },
@@ -37,7 +46,7 @@ function Music() {
         id: 3,
         title: "Urban Echoes",
         year: 2022,
-        coverPlaceholder: "Album 3 Cover",
+        cover: album3Cover, // Imported image
         description: "Sounds inspired by city life and modern landscapes.",
         tracks: [
           { id: 1, title: "Morning Commute", duration: "3:55", audioSrc: "#" },
@@ -48,10 +57,10 @@ function Music() {
       }
     ],
     singles: [
-      { id: 1, title: "Summer Breeze", year: 2015, coverPlaceholder: "Single 1", audioSrc: "#" },
-      { id: 2, title: "Winter's Embrace", year: 2017, coverPlaceholder: "Single 2", audioSrc: "#" },
-      { id: 3, title: "Autumn Leaves", year: 2019, coverPlaceholder: "Single 3", audioSrc: "#" },
-      { id: 4, title: "Spring Awakening", year: 2021, coverPlaceholder: "Single 4", audioSrc: "#" }
+      { id: 1, title: "Summer Breeze", year: 2015, cover: single1Cover, audioSrc: "#" },
+      { id: 2, title: "Winter's Embrace", year: 2017, cover: single2Cover, audioSrc: "#" },
+      { id: 3, title: "Autumn Leaves", year: 2019, cover: single3Cover, audioSrc: "#" },
+      { id: 4, title: "Spring Awakening", year: 2021, cover: single4Cover, audioSrc: "#" }
     ]
   };
 
@@ -85,8 +94,9 @@ function Music() {
                       >
                         <Card.Body className="d-flex align-items-center">
                           <div className="album-thumbnail-container me-3">
-                            <div className="album-thumbnail-placeholder">
-                              <span>{album.title[0]}</span>
+                            <div className="album-thumbnail">
+                              {/* Display the album cover image */}
+                              <img src={album.cover} alt={album.title} className="album-cover" />
                             </div>
                           </div>
                           <div>
@@ -101,8 +111,9 @@ function Music() {
                 <Col md={8}>
                   <div className="album-details">
                     <div className="album-header mb-4">
-                      <div className="album-cover-placeholder">
-                        <span>{selectedAlbum.title[0]}</span>
+                      <div className="album-cover">
+                        {/* Display the selected album cover image */}
+                        <img src={selectedAlbum.cover} alt={selectedAlbum.title} className="album-cover" />
                       </div>
                       <div className="album-info">
                         <h2>{selectedAlbum.title}</h2>
@@ -110,7 +121,6 @@ function Music() {
                         <p>{selectedAlbum.description}</p>
                       </div>
                     </div>
-                    <h4>Tracks</h4>
                     <div className="tracks-list">
                       {selectedAlbum.tracks.map(track => (
                         <AudioPlayer
@@ -130,7 +140,7 @@ function Music() {
                   <Col md={6} lg={3} key={single.id} className="mb-4">
                     <Card className="single-card h-100">
                       <div className="single-cover-placeholder">
-                        <span>{single.title[0]}</span>
+                        <img src={single.cover} alt={single.title} className="single-cover" />
                       </div>
                       <Card.Body>
                         <Card.Title>{single.title}</Card.Title>
