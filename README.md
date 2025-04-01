@@ -1,2 +1,1 @@
-MusicianPortfolio
-Portfolio Website for musicians (React.js)
+MusicianPortfolio Portfolio Website for musicians (React.js)
